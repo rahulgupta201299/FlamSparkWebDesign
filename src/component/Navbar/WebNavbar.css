@@ -1,0 +1,33 @@
+.MobiNavContainer{
+    z-index: 99;
+    display: flex;
+    flex-direction: row;
+    background-color: #1f1f2b;
+    position: fixed;
+    height: 70px;
+    color: white;
+    width: 100%;
+    justify-content: space-around;
+    order: 9;
+    padding: 5px 4% 5px 4%;
+
+}
+.classSearchWeb{
+    flex-grow: 4;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-right: 5%;
+}
+.searchWeb,.searchWeb:focus{
+    height:40px;
+    border-radius: 20px;
+    width: 100%;
+    outline: none;
+    padding-left: 20px;
+}
+.EachNavIcon{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+}

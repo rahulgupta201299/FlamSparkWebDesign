@@ -1,0 +1,56 @@
+.MobiBrowseContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.BrowseHead{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10%;
+}
+.BackIcon{
+    display: flex;
+    cursor: pointer;
+    color: white;
+}
+.BackIcon:hover{
+    color: gray;
+}
+.BrowseAllImages{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+    gap: 30px;
+}
+.BrowseEachImages{
+    display: flex;
+    flex-direction: column;
+    background-color: #181818;
+    border-radius: 25px;
+}
+.BrowseImage{
+    border-radius: 25px;
+    object-fit: cover;
+    background: no-repeat;
+    cursor: pointer;
+}
+.BrowseTitle{
+    display: flex;
+    flex-direction: row;
+    order: 5;
+    justify-content: space-between;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+@media only screen and (max-width: 400px){
+    .BrowseAllImages{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 20px;
+        gap: 30px;
+    }
+}
